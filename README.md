@@ -7,6 +7,14 @@ Build DEB for coin
 * Run "make" in coin subdirectory
 * DEB file appear in coin subdirectory
 
+# SET PROXY WHILE DOWNLOADING BITCOIN-BINARY
+--------------------------------------------
+use 
+* `export http_proxy=http://proxy:port`  
+* `export https_proxy=http://proxy:port`   
+
+to enable proxy while executing download script in bitcore-node
+
 First installation on target machine
 ------------------------------------
 * ```apt-get install apt-transport-https && dpkg -i <package_name>```
